@@ -31,9 +31,9 @@ for i in list;
     odd.append(i * 2)
 print(odd)
 
-```
 
-    2
+
+  
     
     
  hello
