@@ -11,3 +11,11 @@ An image is made up of pixels, in a grayscale image the image is represented by 
 ![](/images/mnist_dataset.png "dataset screenshot")
 
 This is the layout of the training set, there is a similar file that contains the validation imageset. The validation set allows us to check the accuracy of the model.
+
+
+### Explain how the “pixel similarity” approach to classifying digits works.
+
+The inital step is to identify the pattern for each class. So in identifying what a 3 looks like we must find the mean average pattern of all the threes in our training set. By comparing unknown numbers to this pattern, you can determine what they are.
+
+### What is a list comprehension? Create one now that selects odd numbers from a list and doubles them.
+
