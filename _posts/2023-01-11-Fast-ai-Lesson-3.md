@@ -35,4 +35,9 @@ print(odd)
 
   
     
- ### next
+ 
+ ### What is a “rank 3 tensor”?
+
+The rank of a tensor is the number of dimensions it has. An easy way to identify the rank is the number of indices you would need to reference a number within a tensor. A scalar can be represented as a tensor of rank 0 (no index), a vector can be represented as a tensor of rank 1 (one index, e.g., v[i]), a matrix can be represented as a tensor of rank 2 (two indices, e.g., a[i,j]), and a tensor of rank 3 is a cuboid or a “stack of matrices” (three indices, e.g., b[i,j,k]). In particular, the rank of a tensor is independent of its shape or dimensionality, e.g., a tensor of shape 2x2x2 and a tensor of shape 3x5x7 both have rank 3.
+    Note that the term “rank” has different meanings in the context of tensors and matrices (where it refers to the number of linearly independent column vectors).
+
