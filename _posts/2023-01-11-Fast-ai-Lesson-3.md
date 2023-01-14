@@ -23,7 +23,7 @@ The inital step is to identify the pattern for each class. So in identifying wha
 Python code and output:
 
 ```python
-# Prints '2'
+
 list = range(5)
 odd = []
 for i in list;
@@ -35,5 +35,4 @@ print(odd)
 
   
     
-    
- hello
+ ### next
