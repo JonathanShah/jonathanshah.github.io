@@ -30,7 +30,7 @@ for i in list;
     if i % 2 == 1;
     odd.append(i * 2)
 print(odd)
-
+```
 
 
   
