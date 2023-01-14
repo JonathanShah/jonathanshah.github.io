@@ -9,3 +9,5 @@ An image is made up of pixels, in a grayscale image the image is represented by 
 ### How are the files and folders in the MNIST_SAMPLE dataset structured? Why?
 
 ![](/images/mnist_dataset.png "dataset screenshot")
+
+This is the layout of the training set, there is a similar file that contains the validation imageset. The validation set allows us to check the accuracy of the model.
