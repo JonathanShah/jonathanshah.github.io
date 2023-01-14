@@ -19,3 +19,12 @@ The inital step is to identify the pattern for each class. So in identifying wha
 
 ### What is a list comprehension? Create one now that selects odd numbers from a list and doubles them.
 
+
+Python code and output:
+
+```python
+# Prints '2'
+print(1+1)
+```
+
+    2
