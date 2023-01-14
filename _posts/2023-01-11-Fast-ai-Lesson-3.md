@@ -35,9 +35,37 @@ print(odd)
 
   
     
- 
- ### What is a “rank 3 tensor”?
 
-The rank of a tensor is the number of dimensions it has. An easy way to identify the rank is the number of indices you would need to reference a number within a tensor. A scalar can be represented as a tensor of rank 0 (no index), a vector can be represented as a tensor of rank 1 (one index, e.g., v[i]), a matrix can be represented as a tensor of rank 2 (two indices, e.g., a[i,j]), and a tensor of rank 3 is a cuboid or a “stack of matrices” (three indices, e.g., b[i,j,k]). In particular, the rank of a tensor is independent of its shape or dimensionality, e.g., a tensor of shape 2x2x2 and a tensor of shape 3x5x7 both have rank 3.
-    Note that the term “rank” has different meanings in the context of tensors and matrices (where it refers to the number of linearly independent column vectors).
+
+### What is SGD?
+
+Stochastic Gradient Descent is a function that minimizes/optomises the loss value. It initializes the weights and biases with random values. It multiplies the learning rate by the gradients to determine how much to change the weights and biases. Calculates the gradients of the loss function to how to influence the weights and biases in order to minimise the loss value.
+
+###  What is “loss”?
+
+ The loss refers to the loss function, this will return a value based on the given predictions and targets, lower values result in better model predictions.
+ 
+###  What is a “gradient”?
+
+
+
+The gradient signals by how much the weight should change, in order to make the model better. It measures how much the loss function is affected as the weights change.
+
+
+### Draw the sigmoid function. What is special about its shape?
+
+ Sigmoid function, essentially turns all vaules into a range of 0 to 1.
+ 
+ 
+![](/images/sigmoid.png "sigmoid function from the wikipedia")
+
+
+
+###  What is an “activation function”?
+
+ 
+ The activation function of a node takes input coming into the node and tells it to "activate " upon recieving a vaule/set of values. The importance of this can be seen when compared to a linear function, the layers will only activate in a linear fashion.  With the activation function, the node is able to become more specific with what input it activates to. Extrapolating this to multiple layers leads to a much more flexible system capable of significantly more complicated functions.
+
+
+
 
