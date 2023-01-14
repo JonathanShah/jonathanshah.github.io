@@ -24,7 +24,16 @@ Python code and output:
 
 ```python
 # Prints '2'
-print(1+1)
+list = range(5)
+odd = []
+for i in list;
+    if i % 2 == 1;
+    odd.append(i * 2)
+print(odd)
+
 ```
 
     2
+    
+    
+ hello
