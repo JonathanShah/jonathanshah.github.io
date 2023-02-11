@@ -7,3 +7,7 @@ What does this look like step by step,
 2* Tensorflow's API creates a CNN with multiple 2D convolution layers.
 3* The network attemps to classify the spectograms in 10 distinct classes. 
 4* Final validation accuracy is about 95%.
+
+
+
+# 1 Convert audio files to spectograms
