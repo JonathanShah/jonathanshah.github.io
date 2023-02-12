@@ -45,5 +45,37 @@ for filename in os.listdir(INPUT_DIR):
 
 
 # 2 create a CNN
+
+```
+model = tf.keras.models.Sequential()
+model.add(tf.keras.layers.Input(shape=(IMAGE_HEIGHT, IMAGE_WIDTH, N_CHANNELS)))
+model.add(tf.keras.layers.Conv2D(32, 3, strides=2, padding='same', activation='relu'))
+model.add(tf.keras.layers.BatchNormalization())
+model.add(tf.keras.layers.MaxPooling2D(pool_size=(2, 2)))
+model.add(tf.keras.layers.BatchNormalization())
+model.add(tf.keras.layers.Conv2D(64, 3, padding='same', activation='relu'))
+model.add(tf.keras.layers.BatchNormalization())
+model.add(tf.keras.layers.MaxPooling2D(pool_size=(2, 2)))
+model.add(tf.keras.layers.BatchNormalization())
+model.add(tf.keras.layers.Conv2D(128, 3, padding='same', activation='relu'))
+model.add(tf.keras.layers.BatchNormalization())
+model.add(tf.keras.layers.MaxPooling2D(pool_size=(2, 2)))
+model.add(tf.keras.layers.BatchNormalization())
+model.add(tf.keras.layers.Flatten())
+model.add(tf.keras.layers.Dense(256, activation='relu'))
+model.add(tf.keras.layers.BatchNormalization())
+model.add(tf.keras.layers.Dropout(0.5))
+model.add(tf.keras.layers.Dense(N_CLASSES, activation='softmax'))
+
+# Compile 
+model.compile(
+    loss='sparse_categorical_crossentropy',
+    optimizer=tf.keras.optimizers.RMSprop(),
+    metrics=['accuracy'],
+)
+
+
+history = model.fit(train_dataset, epochs=5, validation_data=valid_dataset)
+```
 # 3 Evaluate
 
