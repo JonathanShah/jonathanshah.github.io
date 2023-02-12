@@ -43,7 +43,6 @@ for filename in os.listdir(INPUT_DIR):
 ```
 
 
-# 1.1 Prepare spectrograms
 
 # 2 create a CNN
 # 3 Evaluate
