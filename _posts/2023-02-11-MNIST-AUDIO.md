@@ -38,7 +38,7 @@ for filename in os.listdir(INPUT_DIR):
 
 
 
-# 2 create a CNN
+# 2 Create a CNN
 
 ```
 model = tf.keras.models.Sequential()
