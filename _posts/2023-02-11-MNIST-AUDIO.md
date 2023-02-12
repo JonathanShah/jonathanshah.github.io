@@ -1,10 +1,4 @@
-## Hello
-
-Image of the process
-
-What does this look like step by step,
-
-
+# MNIST Audio Classficication
 
 
 # 1 Convert audio files to spectograms
