@@ -79,3 +79,8 @@ history = model.fit(train_dataset, epochs=5, validation_data=valid_dataset)
 ```
 # 3 Evaluate
 
+```
+
+final_loss, final_acc = model.evaluate(valid_dataset, verbose=0)
+print("Final loss: {0:.6f}, final accuracy: {1:.6f}".format(final_loss, final_acc))
+```
