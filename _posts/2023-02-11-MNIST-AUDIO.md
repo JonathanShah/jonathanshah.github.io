@@ -40,6 +40,8 @@ for filename in os.listdir(INPUT_DIR):
 
 # 2 Create a CNN
 
+Convolutional Neural Network is an algorithm that takes in an input image, assign weights to areas of pixels in the image, and be able to differentiate the areas from each other. we make a neural network using Conv2D and MaxPooling2D layers to downsample the input images into smaller convolutions, which can be seen as a window of the input image. Combining multiple of these we are able to capture important features in the image such as edges, contours and colors. By iterating over batches of input images and associated labels, we can assign importance via weights to various objects in the image.
+
 ```
 model = tf.keras.models.Sequential()
 model.add(tf.keras.layers.Input(shape=(IMAGE_HEIGHT, IMAGE_WIDTH, N_CHANNELS)))
