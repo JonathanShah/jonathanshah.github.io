@@ -14,7 +14,7 @@ The colour represents intensity, the brighter the more intense the energy (the l
 
 # 1:Practical - Convert audio files to spectograms
 
-In order to convert the audio samples to spectrograms there are a few ingredients needed to make the conversion.
+So now its time to delve into the python libraries that help us apply that theory in a jupyter notebook.
 
 ```
 def get_wav_info(wav_file):
