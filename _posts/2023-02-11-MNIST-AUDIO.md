@@ -1,5 +1,13 @@
 # MNIST Audio Classficication
 
+The aim here is to classify sound files into categories. To classify the file it must first be turned into a mel spectrogram. Which leads to the question; What is a mel spectrogram and why do we want to use it? Lets find out;
+
+# Mel spectrogram
+
+
+
+
+
 
 # 1 Convert audio files to spectograms
 
