@@ -3,7 +3,7 @@
 The aim here is to classify sound files into categories. To classify the audio file, details like frequency and frame rate are needed to be represented in an image form, one that looks like the image below. We represent the audio as an image because CNN architectures are well developed to handle images, less so for audio files.
 So first lets go through the steps in terms of the theory behind the process and then bring those steps to life using python.
 
-# Theory - Mel spectrogram
+# 1:Theory - Mel spectrogram
 
 ![](/images/mel_spec.png "dataset screenshot")
 
@@ -12,7 +12,7 @@ The colour represents intensity, the brighter the more intense the energy (the l
 
 
 
-# 1 Convert audio files to spectograms
+# 1:Practical - Convert audio files to spectograms
 
 In order to convert the audio samples to spectrograms there are a few ingredients needed to make the conversion.
 
