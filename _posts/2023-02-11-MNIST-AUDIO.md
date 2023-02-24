@@ -7,6 +7,7 @@ So first lets go through the steps in terms of the theory behind the process and
 
 ![](/images/mel_spec.png "dataset screenshot")
 
+The colour represents intensity, the brighter the more intense the energy (the louder it is). The values at each time interval are derived by applying the fourier transform in order to decompose the sound  into terms of the intensity of its constituent pitches. Then representing that data in terms of the range of frequencies along an x axis of time.
 
 
 
