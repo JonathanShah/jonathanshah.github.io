@@ -1,6 +1,7 @@
 # MNIST Audio Classficication
 
-The aim here is to classify sound files into categories. To classify the file it must first be turned into a mel spectrogram. Which leads to the question; What is a mel spectrogram and why do we want to use it? Lets find out;
+The aim here is to classify sound files into categories. To classify the audio file, details like frequency and frame rate are needed to be represented in an image form, one that looks like the image below. We represent the audio as an image because CNN architectures are well developed to handle images.
+So first lets go through the steps in terms of the theory behind the process and then bring those steps to life using python.
 
 # Mel spectrogram
 
