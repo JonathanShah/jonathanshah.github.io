@@ -4,6 +4,7 @@ The aim here is to classify sound files into categories. To classify the file it
 
 # Mel spectrogram
 
+![](/images/mel_spec.png "dataset screenshot")
 
 
 
